@@ -58,6 +58,12 @@ body {
     background-color: #4e008e;
   }
 
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
   .Nota strong{
     display: block;
     margin-bottom: 10px;
