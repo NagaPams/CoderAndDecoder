@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+    <html lang="es">
+      <head>
+        <meta charset="UTF-8">
+        <title>Codificador y decodificador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href= "decodificador.css">
+      </head>
+      <body>
+        <label for="texto" >Ingresa un texto:</label>
+        
+        <textarea name="Texto del usuario" id="texto" rows="5" cols="50" >Texto de ejemplo: La cara del loro se aclara con cloro, claro, con cloro se aclara la cara del loro.</textarea>
+    
+        <br><br>
+    
+        <button onclick="codificar()">Codificar</button>
+        <button onclick="decodificar()">Decodificar</button>
+    
+        <br><br>
+
+        <div>
+            <label>Resultado:</label>
+            <div id="resultado"></div>
+        </div>
+        <div class="Nota">
+            <span style="color: rgb(9, 51, 241);">Nota:</span>
+            <span style="color: royalblue;">El texto se regresara en minúsculas</span>
+        </div>
+        
+    
+        <script languaje="Javascript" src="main.js"></script>
+      </body>
+    </html>
+    
+
